@@ -1,0 +1,131 @@
+_G.Nexus = {
+    Main = {
+        ['Enabled'] = false,
+        ["Common Sword"] = false,
+        ['Hop Cooldown'] = 30, -- 30 Seconds
+        ['Quests'] = {
+            ['Pull Lever'] = false,
+            ['Rainbow Haki'] = false,
+            ['Musketeer Hat'] = false,
+            ['Mirror Fractal'] = false,
+            ['Sanguine Material'] = false,
+        },
+    },
+    Sockets = {
+        Enabled = false,
+        MachineName = 'PC 1',
+        Sword = {
+            'Cursed Dual Katana',
+            'Dark Dagger',
+            'false Triple Katana',
+            'Tushita',
+            'Yama',
+            'Hallow Scythe',
+            'Saber'
+        },
+        Fruit = {
+            'Kitsune',
+            'Leopard',
+            'Dragon',
+            'Spirit',
+            'Control',
+            'Venom',
+            'Shadow',
+            'Dough',
+            'Mammoth',
+            'T-Rex'
+        }
+    },
+    Efficiency = {
+        ['FPS Booster'] = false,
+        ['Black Screen'] = false,
+    },
+    Fruits = {
+        ['Enabled'] = false,
+        ['Awakening Fruit'] = false,
+        ['Main'] = {
+            'Dough-Dough',
+            'Kitsune-Kitsune',
+            'Leopard-Leopard',
+            'Mammoth-Mammoth',
+            'T-Rex-T-Rex',
+            'Spirit-Spirit',
+        },
+        ['List'] = {
+            'Dark-Dark',
+            'Rumble-Rumble',
+            'Magma-Magma',
+            'Buddha-Buddha',
+        },
+    },
+    Melee = {
+        ['6 Melee'] = false,
+    },
+    Sword = {
+        ['Pole'] = false,
+        ['Saber'] = false,
+        ['Midnight Blade'] = false,
+        ['Shisui'] = false,
+        ['Saddi'] = false,
+        ['Wando'] = false,
+        ['Yama'] = false,
+        ['Tushita'] = false,
+        ['Rengoku'] = false,
+        ['Canvander'] = false,
+        ['Buddy Sword'] = false,
+        ['Spikey Trident'] = false,
+        ['Twin Hooks'] = false,
+        ['Hallow Scryte'] = false,
+        ['false Triple Katana'] = false,
+        ['Cursed Dual Katana'] = false,
+        ['Shark Anchor'] = false,
+    },
+    Gun = {
+        ['Kabucha'] = false,
+        ['Serpent Bow'] = false,
+        ['Soul Guitar'] = false
+    },
+    Race = {
+        Enabled = false,
+        Races = {
+            ['Mink'] = false,
+            ['Human'] = false,
+            ['Fishman'] = false,
+            ['Skypiea'] = false,
+        },
+        Specials = {
+            ['Ghoul'] = false,
+            ['Cyborg'] = false,
+        },
+        V4 = {
+            ['Enabled'] = false,
+            ['Tier'] = 10,
+        },
+    },
+    Mastery = {
+        Sword = {
+            ['Enabled'] = false,
+            ['Manual'] = false,
+            ['Sword Name'] = {
+                'Koko',
+                'Midnight Blade',
+                'false Triple Katana',
+                'Cursed Dual Katana',
+                'Shark Anchor',
+            }
+        },
+        Gun = {
+            ['Enabled'] = false,
+            ['Manual'] = false,
+            ['Gun Name'] = {
+                'Kabucha',
+                'Acidum Rifle',
+                'Serpent Bow',
+                'Soul Guitar',
+            }
+        },
+        DevilFruits = false
+    },
+}
+script_key="EtMMvxrVxdjgemGtMiQBaEolEiKhicJW";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Nexus/main/Nexus.lua"))()
