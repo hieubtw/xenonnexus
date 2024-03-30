@@ -1,6 +1,6 @@
 _G.Nexus = {
     Main = {
-        ['Enabled'] = false,
+        ['Enabled'] = true,
         ["Common Sword"] = false,
         ['Hop Cooldown'] = 30, -- 30 Seconds
         ['Quests'] = {
@@ -12,7 +12,7 @@ _G.Nexus = {
         },
     },
     Sockets = {
-        Enabled = false,
+        Enabled = true,
         MachineName = 'PC 1',
         Sword = {
             'Cursed Dual Katana',
@@ -37,7 +37,7 @@ _G.Nexus = {
         }
     },
     Efficiency = {
-        ['FPS Booster'] = false,
+        ['FPS Booster'] = true,
         ['Black Screen'] = false,
     },
     Fruits = {
@@ -83,7 +83,8 @@ _G.Nexus = {
     Gun = {
         ['Kabucha'] = false,
         ['Serpent Bow'] = false,
-        ['Soul Guitar'] = false
+        ['Soul Guitar'] = false,
+	['Acidum Rifle'] = true
     },
     Race = {
         Enabled = false,
@@ -115,13 +116,10 @@ _G.Nexus = {
             }
         },
         Gun = {
-            ['Enabled'] = false,
-            ['Manual'] = false,
+            ['Enabled'] = true,
+            ['Manual'] = true,
             ['Gun Name'] = {
-                'Kabucha',
                 'Acidum Rifle',
-                'Serpent Bow',
-                'Soul Guitar',
             }
         },
         DevilFruits = false
